@@ -6,4 +6,4 @@ Repo for The Odin Project Courses exercises
 
 ### Exercise List
 
-- odin-recepies
+- [odin-recepies](https://github.com/RixCrafts/TheOdinProject/tree/main/Fundamentals/odin-recipes/index.html)
