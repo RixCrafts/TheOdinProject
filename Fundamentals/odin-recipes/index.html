@@ -16,25 +16,27 @@
 
     <!-- Styles -->
     <style>
-        *{
+        * {
             margin: 0;
             padding: 0;
             border: 0;
         }
-        body{
+
+        body {
             width: 100vw;
             height: 100vh;
-            overflow-x: hidden;   
-            background-color: #fcf0dd;         
+            overflow-x: hidden;
+            background-color: #fcf0dd;
         }
-        header{
+
+        header {
             border-bottom: 2px solid #E3B261;
             height: 125px;
             overflow-y: hidden;
-            background-color: #fff;          
+            background-color: #fff;
         }
 
-        header div{
+        header div {
             display: flex;
             width: 90%;
             height: 100%;
@@ -42,12 +44,12 @@
             justify-content: space-between;
         }
 
-        header div img{
+        header div img {
             height: 100%;
             object-fit: contain;
         }
 
-        #course-logo{
+        #course-logo {
             /* border: 1px solid #E3B261; */
             width: 100px;
             height: 100px;
@@ -55,29 +57,29 @@
             align-self: flex-end;
         }
 
-        #project-header{
+        #project-header {
             font-family: 'Odinson', 'Odinson Outline', 'Odinson Light', sans-serif;
             font-size: 30px;
             color: #E3B261;
             text-align: center;
             display: flex;
             width: 90%;
-            margin: 20px auto 50px auto;            
+            margin: 20px auto 50px auto;
         }
 
-        #project-header span{
+        #project-header span {
             font-size: 60px;
         }
 
-        #project-header span:last-child{
+        #project-header span:last-child {
             transform: rotateY(180deg);
         }
 
-        #project-header h1{
+        #project-header h1 {
             flex-grow: 1;
         }
 
-        #content-container{
+        #content-container {
             width: 80%;
             margin: 10px auto;
             display: flex;
@@ -85,7 +87,7 @@
             justify-content: space-evenly;
         }
 
-        #content-container div{
+        #content-container div {
             min-width: 400px;
             width: 32%;
             text-align: center;
@@ -97,7 +99,7 @@
             margin-bottom: 25px;
         }
 
-        #content-container div img{
+        #content-container div img {
             width: 95%;
             height: 600px;
             object-fit: cover;
@@ -106,14 +108,14 @@
             margin-bottom: 25px;
         }
 
-        #content-container div h2{
+        #content-container div h2 {
             font-family: 'Milo North', sans-serif;
             font-size: 30px;
             color: #c25316;
             margin-bottom: 10px;
         }
 
-        #content-container div a{
+        #content-container div a {
             text-decoration: none;
             font-family: 'Odinson Light', sans-serif;
             font-size: 2rem;
@@ -123,17 +125,18 @@
             height: 83px;
             margin: 0 auto;
         }
-        .see-recipe-icon{
-            font-size: 8rem; 
-            color: #fff;    
-            margin-top: -20px; 
-            text-shadow: 0 0 10px #c25316;  
-            transition: all .3s;   
+
+        .see-recipe-icon {
+            font-size: 8rem;
+            color: #fff;
+            margin-top: -20px;
+            text-shadow: 0 0 10px #c25316;
+            transition: all .3s;
         }
-        .see-recipe-icon:hover{
-            color: #c25316; 
+
+        .see-recipe-icon:hover {
+            color: #c25316;
         }
-        
     </style>
     <!-- End Styles -->
     <title>Odin Recipes</title>
@@ -142,11 +145,10 @@
 <body>
     <header>
         <div>
-            <img src="https://miro.medium.com/max/1200/1*P_wUre75IHZUQYFjoD7GZA.png" alt="The Odin Project Logo" width="70%"
-                id="odin-project-banner">
+            <img src="https://miro.medium.com/max/1200/1*P_wUre75IHZUQYFjoD7GZA.png" alt="The Odin Project Logo" id="odin-project-banner">
             <img src="https://ccweb.imgix.net/https%3A%2F%2Fd3f1iyfxxz8i1e.cloudfront.net%2Fcourses%2Fcourse_image%2F0fc390b7fc58.png?ar=16%3A9&auto=format&cs=strip&fit=crop&h=380&ixlib=php-3.3.1&w=535&s=213d9a8bfa9b7b499cbcec955be72057"
                 alt="Foundation Course Logo" id="course-logo">
-        </div>        
+        </div>
     </header>
     <main>
         <div id="project-header">
@@ -160,7 +162,8 @@
         </div>
         <div id="content-container">
             <div id="breakfast-container">
-                <img src="https://d3d127vhjgkwcw.cloudfront.net/images/articles/2019_07/_best-breakfast-recipes-_Cinnamon-Roll_Pancakes_.jpg" alt="Cinnamon Roll on a plate">
+                <img src="https://d3d127vhjgkwcw.cloudfront.net/images/articles/2019_07/_best-breakfast-recipes-_Cinnamon-Roll_Pancakes_.jpg"
+                    alt="Cinnamon Roll on a plate">
                 <h2>Cinnamon-Roll Pancakes</h2>
                 <a href="recipes/pancakes.html">
                     <span class="material-symbols-outlined see-recipe-icon">
