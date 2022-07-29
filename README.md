@@ -7,3 +7,7 @@ Repo for The Odin Project Courses exercises
 ### Exercise List
 
 - odin-recepies
+
+#### Dev Notes
+
+- Color Pallete: #E3B261

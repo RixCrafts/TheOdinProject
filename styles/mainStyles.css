@@ -1,0 +1,32 @@
+@font-face {
+    font-family: Norse;
+    src: url('../resources/Norse.otf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    font-family: Norse, sans-serif;
+    color: #E3B261;
+}
+
+hr {
+    width: 450px;
+    margin: 5px auto;
+    border: 1.5px solid #E3B261;
+}
+
+#fundamentals{
+    text-align: center;
+}
