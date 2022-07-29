@@ -12,6 +12,7 @@
     <link href="http://fonts.cdnfonts.com/css/milo-north" rel="stylesheet">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+        <script src="https://kit.fontawesome.com/6357d3066f.js" crossorigin="anonymous"></script>
     <!-- End External Links-->
 
     <!-- Styles -->
@@ -137,6 +138,45 @@
         .see-recipe-icon:hover {
             color: #c25316;
         }
+
+        footer {
+            padding: 5px 20px;
+            background-color: rgba(227, 178, 97, 1);
+            margin: 20px auto 0 auto;
+            margin-top: 50px;
+        }
+
+        footer h4 {
+            font-size: 1.5rem;
+            text-align: center;
+            margin: 10px;
+            color: #fcf0dd;
+            text-shadow: 0 0 10px #000;
+        }
+
+        footer p {
+            font-size: 1.2rem;
+            text-align: center;
+        }
+
+        #social-icons {
+            text-align: center;
+            font-size: 3rem;
+        }
+
+        #social-icons a {
+            color: #171515;
+            transition: all .5s;
+        }
+
+        #social-icons a:hover {
+            color: #fcf0dd;
+            text-shadow: 0 0 5px #171515;
+        }
+
+        footer a {
+            text-decoration: none;
+        }
     </style>
     <!-- End Styles -->
     <title>Odin Recipes</title>
@@ -193,7 +233,35 @@
             </div>
         </div>
     </main>
-
+    <footer>
+        <div id="about-page">
+            <h4>The Odin Project > Fundamentals > odin-recipes</h4>
+            <p>
+                Main recipe page for the "odin-recipes" project.
+            </p>
+        </div>
+        <div id="about-dev">
+            <h4>Develop by RixCrafts</h4>
+            <p id="note-from-dev">
+                I thought of uploading the project strictly with what has been covered up to this point in the course,
+                but
+                seeing the
+                projects of other students I thought it was acceptable to explore a little so I added some details, yes,
+                I
+                put
+                everything in the same file for make it easy to read
+            </p>
+            <div id="dev-social">
+                <h4>Follow me.. RixCrafts everywhere</h4>
+                <div id="social-icons">
+                    <a href="https://github.com/RixCrafts/TheOdinProject/tree/main/Fundamentals/odin-recipes">
+                        <i class="fa-brands fa-square-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
 </body>
 
 </html>
