@@ -6,8 +6,4 @@ Repo for The Odin Project Courses exercises
 
 ### Exercise List
 
-- odin-recepies
-
-#### Dev Notes
-
-- Color Pallete: #E3B261
+- [odin-recepies](https://github.com/RixCrafts/TheOdinProject/tree/main/Fundamentals/odin-recipes/index.html)
